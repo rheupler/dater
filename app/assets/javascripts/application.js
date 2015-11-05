@@ -15,3 +15,10 @@
 //= require turbolinks
 //= require_tree .
 //= require jquery.turbolinks
+
+$(window).load(function(){
+  $('.picture-holder').find('img').each(function(){
+    var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
+    $(this).addClass(imgClass);
+  })
+})
