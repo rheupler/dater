@@ -14,7 +14,8 @@ gem 'cleverbot-api'
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 gem 'devise'
-
+gem "nokogiri"
+gem 'open_uri_redirections'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
